@@ -1,0 +1,185 @@
+/*1.前面都是margin: 0px auto;必须同步，否则跟top，contain位置便宜*/
+/*2.placeholder样式*/
+
+body{
+    font-family:PingFangSC-Light;
+}
+.cbox{
+    display:inline-block;
+    width:14px;
+    height:14px;
+    border-radius: 2px;
+    background:#4A88F7;
+}
+.cbox.checked:after{
+    content:"√";
+    color: rgba(255,255,255,1);
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+#header{
+    width:100%;
+    height: 70px;
+    background:rgba(255,255,255,1);
+    border-bottom: 1px solid #DDDDDD;
+}
+#top{
+    width:1150px;
+    height: 70px;
+    margin: 0px auto;
+    position: relative;
+}
+#top .left{
+    width:181px;
+    height: 30px;
+    background-image: url("img/logo.png");
+    position: relative;
+    top: 20px;
+}
+#top  ul li{
+    float: right;
+    list-style-type: none;
+    font-size:16px;
+    color:rgba(51,51,51,1);
+    position: relative;
+    top: -6px;
+    margin-left: 55px;
+}
+#contain{
+    width:900px;
+    margin: 0px auto;
+    position: relative;
+    top: 67px;
+}
+#contain #containTop{
+    height: 10px;
+    margin: 0px auto;
+    position: relative;
+    background-color: #4A88F7;
+}
+#contain #containTop .left{
+    height: 10px;
+    width: 450px;
+    background-color: #0068B7;
+}
+#contain #containBottom{
+    margin: 0px auto;
+    position: relative;
+    border: 1px solid #EEEEEE;
+    border-top: 0px;
+}
+#containBottom .left1{
+    float: left;
+    width: 449px;
+    height: 630px;
+    position: relative;
+}
+table{
+    width:380px;
+    height: 395px;
+    position: absolute;
+    left: 42px;
+    top: 37px;
+}
+table tr:nth-child(odd){
+    width: 384px;
+    height: 26px;
+    vertical-align: top;
+}
+table tr:nth-child(even){
+    width: 384px;
+    height: 64px;
+    vertical-align: top;
+}
+input::-webkit-input-placeholder { /* WebKit browsers */
+    color: rgba(153,153,153,1);
+    font-size: 14px;
+ }
+input{
+    font-size: 18px;
+    width: 364px;
+    height: 40px;
+    margin: 0px;
+    padding-left: 16px;
+    border: 1px solid #DDDDDD;
+}
+caption{
+    font-size:24px;
+    font-weight: bold;
+    color:rgba(74,136,247,1);
+    margin-bottom: 30px;
+}
+#containBottom .right1{
+    float: left;
+    width: 449px;
+    height: 630px;
+    position: relative;
+}
+#containBottom .md{
+    float: left;
+    height: 294px;
+    position: absolute;
+    left: 449px;
+    top: 130px;
+    border-left:2px dashed #EDEDED;
+}
+#containBottom .bt{
+    width:380px;
+    height: 122px;
+    position: absolute;
+    left: 261px;
+    top: 499px;
+}
+#containBottom .bt .d1{
+    display: inline-block;
+    font-size:14px;
+    color:rgba(153,153,153,1);
+    margin-left: 15px;
+    vertical-align: top;
+}
+#containBottom .bt input{
+    width: 14px;
+    height: 14px;
+    background-color: #4A88F7;
+}
+#containBottom .bt button{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    top: 18px;
+    background-color: #4A88F7;
+    color: #FFFFFF;
+    border: 0px;
+    font-size:16px;
+
+}
+#containBottom .bt .d2{
+    height: 18px;
+    width: 200px;
+    font-size:16px;
+    color:#333333;
+    position: relative;
+    top: 35px;
+    left: 98px;
+    text-align: center;
+}
+#containBottom .bt .d2 a{
+    font-size: 16px;
+    color: #4A88F7;
+    text-decoration: none;
+}
+#foot{
+    position: relative;
+    top: 143px;
+    /*前面都是margin: 0px auto;必须同步，否则跟top，contain位置便宜*/
+    /*left: 676px;*/
+    margin: 0px auto;
+    width:568px;
+    height:51px;
+    font-size:14px;
+    text-align: center;
+    color:rgba(51,51,51,1);
+    line-height:36px;
+    margin-bottom: 39px;
+}
