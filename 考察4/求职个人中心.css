@@ -1,0 +1,339 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F8F8F8;
+    font-size:16px;
+    font-family:PingFangSC-Light;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+#header1{
+    width: 100%;
+    height: 40px;
+    background-color:rgba(74,136,247,1);
+}
+#top1{
+    /*不加放大到一定程度背景色会消失55555555555555555555555555555555555*/
+    background-color:rgba(74,136,247,1);
+    width: 1150px;
+    height: 40px;
+    margin: 0px auto;
+    font-size:14px;
+    color:rgba(255,255,255,1);
+    line-height:40px;
+}
+#top1 .ul1{
+    list-style-type: none;
+}
+#top1 .ul1 li{
+    float: left;
+}
+#top1 .ul1 li:not(:first-child){
+    padding-left: 45px;
+}
+#top1 .ul1 li:nth-child(8){
+    padding-left: 310px;
+    padding-right: 5px;
+}
+#top1 img{
+    padding-left: 3px;
+    margin-right: 8px;
+    vertical-align:middle;
+}
+#header2{
+    width: 100%;
+    height: 70px;
+    background:rgba(255,255,255,1);
+    box-shadow:1px 0px 0px rgba(221,221,221,1);
+    border-bottom: 1px solid #E0E0E0;
+}
+#top2{
+    /*不加放大到一定程度背景色会消失55555555555555555555555555555555555*/
+    background:rgba(255,255,255,1);
+    border-bottom: 1px solid #E0E0E0;
+    width: 1150px;
+    height: 70px;
+    font-size:16px;
+    font-weight: bold;
+    color:rgba(51,51,51,1);
+    position: relative;
+    margin: 0px auto;
+}
+#top2 .img1{
+    width: 181px;
+    height: 30px;
+    position: relative;
+    top: 20px;
+}
+#top2 .ul2{
+    list-style-type: none;
+    position: relative;
+    left: 355px;
+    top: -10px;
+}
+#top2 .ul2 li{
+    width: 80px;
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+}
+#top2 .ul2 li:hover{
+    padding-bottom: 26px;
+    border-bottom: 6px solid #4A88F7;
+}
+#contain{
+    width: 1150px;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+#left{
+    float: left;
+    width: 180px;
+    height: 420px;
+    background-color: #FFFFFF;
+}
+#left .ld{
+    float: left;
+    width: 140px;
+    height: 70px;
+    color:#ADADAD;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 70px;
+}
+#left .ld:not(:last-child){
+    border-bottom: 1px solid rgba(221,221,221,1);
+}
+#left .ld:hover{
+    margin-left: 0px;
+    width: 180px;
+    background:rgba(74,136,247,1);
+    color:rgba(255,255,255,1);
+    border-bottom: 1px solid rgba(74,136,247,1);
+}
+#right{
+    margin-left: 10px;
+    float: left;
+    width: 960px;
+}
+#right .top{
+    float: left;
+    width: 960px;
+    height: 4px;
+    background-color: #4A88F7;
+}
+.rd1{
+    width: 960px;
+    background-color: #FFFFFF;
+}
+#right .rd1 .rd1up{
+    width: 910px;
+    margin-left: 25px;
+    border-bottom: 1px solid rgba(221,221,221,1);
+}
+.rd1up img{
+    margin-left: 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.rd1up .d1{
+    display: inline-block;
+    width: 385px;
+    margin-left: 55px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+.rd1up .d1 .d1t{
+    float: left;
+    font-size:18px;
+    color:rgba(51,51,51,1);
+}
+.btn1{
+    width:80px;
+    height:30px;
+    background:rgba(236,99,52,1);
+    border-radius:15px;
+    font-size:14px;
+    color:rgba(255,255,255,1);
+    position: relative;
+    top: -2px;
+    left: 30px;
+    border: 0px;
+}
+.rd1up .d1 .d1b{
+    float: left;
+    font-size:14px;
+    margin-top: 30px;
+    line-height:36px;
+}
+#right .rd1 .rd1down{
+    width: 910px;
+}
+.rd1down .tu{
+    float: left;
+    width: 80px;
+    height: 65px;
+    font-size:14px;
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.rd1down .tu img{
+    margin-bottom: 20px;
+}
+.rd1down .tu:not(:first-child){
+    margin-left: 100px;
+}
+.rd1down .tu:first-child{
+    margin-left: 60px;
+}
+.rd2{
+    width: 960px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+}
+.rd2 .rd2up{
+    width: 910px;
+    margin-left: 20px;
+    position: relative;
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(221,221,221,1);
+}
+.rd2 .rd2up .background{
+    font-size: 18px;
+    width: 800px;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    border-left: 8px solid #4A88F7;
+    padding-left: 20px;
+}
+.rd2 .rd2down{
+    width: 910px;
+    height: 145px;
+    line-height: 145px;
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.rd3{
+    width: 960px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+}
+.rd3 .rd3up{
+    width: 910px;
+    margin-left: 20px;
+    position: relative;
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(221,221,221,1);
+}
+.rd3 .rd3up .background{
+    font-size: 18px;
+    width: 800px;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    border-left: 8px solid #4A88F7;
+    padding-left: 20px;
+}
+.rd3 .rd3down{
+    width: 910px;
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+}
+/*.rd3 .rd3down .rd3d1{*/
+    /*width: 910px;*/
+    /*line-height: 145px;*/
+    /*margin-left: 20px;*/
+    /*background-color: #FFFFFF;*/
+    /*font-size: 14px;*/
+    /*text-align: center;*/
+/*}*/
+th,td{
+    vertical-align: middle;
+}
+th{
+    width: 160px;
+    height: 45px;
+    border-bottom: 1px solid rgba(221,221,221,1);
+}
+td{
+    width: 160px;
+    height: 60px;
+    border-bottom: 1px dashed rgba(221,221,221,1);
+}
+.t1{
+    width: 280px;
+}
+.th1{
+    text-align: left;
+    padding-left: 105px;
+}
+tr:last-child td{
+    border-bottom: 0px;
+}
+td:nth-child(4){
+    color: #EC6334;
+}
+td:first-child{
+    font-size: 16px;
+    color: #EC6334;
+}
+td .a1{
+    font-size: 14px;
+    color: #999999;
+}
+td .a2{
+    color: #4A88F7;
+    float: right;
+}
+#foot{
+    /*float: left;*/
+    width: 100%;
+    background:rgba(255,255,255,1);
+    font-size:18px;
+    color:#333333;
+    text-align: center;
+    margin-top: 35px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#foot .fd1{
+    width: 760px;
+    position: relative;
+    margin: 0px auto;
+    /*注意，这里设置上外边距虽然会使整个#foot的高度改变，但是只有#foot的高度是从*/
+    /*.fd1存在的地方算起，所以背景色高度不变化*/
+    /*margin-top: 50px;*/
+}
+#foot .fd1 .u1{
+    list-style-type: none;
+}
+#foot .fd1 .u1 li:not(:last-child){
+    float: left;
+    margin-right: 23px;
+}
+#foot .fd1 .u1 li:last-child{
+    color:#EC6941;
+}
+#foot .fd2{
+    line-height: 100px;
+}
+#foot .fd3{
+    height: 25px;
+}
+#foot .fd3 a{
+    color:#EC6941;
+}
+#foot .fd3 img{
+    position: relative;
+    top: 3px;
+}

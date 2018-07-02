@@ -1,0 +1,203 @@
+body{
+    font-family:PingFangSC-Light;
+}
+#header{
+    width:100%;
+    height: 70px;
+    background:rgba(255,255,255,1);
+    border-bottom: 1px solid #DDDDDD;
+}
+#top{
+    width:1150px;
+    height: 70px;
+    margin: 0px auto;
+    /*不设置此处，页面放大到一定程度，左边下边框会消失1*/
+    border-bottom: 1px solid #DDDDDD;
+}
+#top .left{
+    width:181px;
+    height: 30px;
+    background-image: url("img/logo.png");
+    position: relative;
+    top: 20px;
+}
+#top  ul li{
+    float: right;
+    list-style-type: none;
+    font-size:16px;
+    color:rgba(51,51,51,1);
+    position: relative;
+    top: -5px;
+    margin-left: 55px;
+}
+#contain{
+    position: relative;
+    top: 65px;
+    margin: 0px auto;
+    width: 720px;
+}
+#contain #containTop{
+    width: 720px;
+    height: 10px;
+    background-color: #4A88F7;
+}
+#contain #containTop .left{
+    width: 269px;
+    height: 10px;
+    background-color: #0068B7;
+}
+#contain #containBottom{
+    width: 720px;
+    border: 1px solid #DDDDDD;
+    /*注意border-top设0px会缺一部分?又好了*/
+    border-top: 0px;
+}
+#contain  #containBottom .left{
+    float: left;
+    width: 269px;
+    height: 630px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    border-right: 2px dashed #DDDDDD;
+}
+#contain  #containBottom .left .d1{
+    position: relative;
+    top: 35px;
+    left: 50px;
+    width: 185px;
+    height: 40px;
+    margin-bottom: 70px;
+}
+#contain  #containBottom .left .d1:first-child{
+    top: 35px;
+}
+#contain  #containBottom .left .d1 .left1{
+    float: left;
+    width: 35px;
+    /*vertical-align: middle;*/
+}
+#contain  #containBottom .left .d1 .right1{
+    float: left;
+    width: 130px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #999999;
+    text-align: center;
+}
+#contain  #containBottom .left .d1 .right1 p{
+    line-height: 30px;
+    font-size: 10px;
+    text-align: center;
+}
+#contain  #containBottom .left .d1 .right1 p:nth-child(2){
+    line-height: 35px;
+}
+#contain  #containBottom .left .d1 .right1 p:last-child{
+    line-height: 35px;
+}
+#contain  #containBottom .right{
+    float: left;
+    width: 449px;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 40px;
+}
+#contain  #containBottom .right .p1{
+    margin-top: 57px;
+    font-size: 24px;
+    color: #4A88F7;
+    text-align: center;
+    letter-spacing: 10px;
+    font-family:PingFangSC-Regular;
+}
+#contain  #containBottom .right .rd{
+    text-align: left;
+    margin-top: 35px;
+    margin-left: 35px;
+    width: 385px;
+}
+#btn1{
+    width: 90px;
+    height: 40px;
+    background-color: #4A88F7;
+    font-size:14px;
+    color:rgba(255,255,255,1);
+    border: 0px;
+    /*不强行设置定位，明明没有上浮的什么却会比input高一些*/
+    position: relative;
+    left: 10px;
+    top: 1px;
+}
+
+#containBottom .right .rd .bt{
+    width:380px;
+    height: 120px;
+    margin-top: 18px;
+}
+#containBottom .right .rd .bt .d1{
+    display: inline-block;
+    font-size:14px;
+    color:rgba(153,153,153,1);
+    margin-left: 15px;
+    vertical-align: top;
+}
+#containBottom .right .rd .bt input{
+    width: 14px;
+    height: 14px;
+    margin: 0px;
+}
+#containBottom .right .rd .bt button{
+    width: 100%;
+    height: 40px;
+    margin-top: 25px;
+    background-color: #4A88F7;
+    color: #FFFFFF;
+    border: 0px;
+    font-size:16px;
+
+}
+#containBottom .right .rd .bt .d2{
+    width: 200px;
+    font-size:16px;
+    color:#333333;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+#containBottom .right .rd .bt .d2 a{
+    color: #4A88F7;
+    text-decoration: none;
+}
+#contain  #containBottom .right .rd img{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 380px;
+    height: 40px;
+    padding-left: 16px;
+    border: 1px solid #DDDDDD;
+}
+input:nth-child(8){
+    width: 280px;
+}
+input:nth-child(11){
+    width: 280px;
+    margin-bottom: 0px;
+}
+input::-webkit-input-placeholder { /* WebKit browsers */
+    color:#999999;
+    font-size: 14px;
+}
+#foot{
+    margin: 0px auto;
+    width:568px;
+    font-size:14px;
+    text-align: center;
+    color:rgba(51,51,51,1);
+    line-height:36px;
+    position: relative;
+    top: 100px;
+    margin-bottom: 20px;
+}
