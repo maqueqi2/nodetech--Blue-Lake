@@ -46,7 +46,7 @@
                 <option value="安庆">安庆</option>
             </select>
         </div>
-        <input type="text" placeholder="请输入职位或公司关键字"><button class="btn1" p="bb1">职位</button><button class="btn1" p="bb2">>企业</button>
+        <input type="text" placeholder="请输入职位或公司关键字"><button class="btn1" p="bb1">职位</button><button class="btn1" p="bb2">企业</button>
         <ul>
             <li>热门推荐:</li>
             <li>销售</li>
@@ -361,15 +361,15 @@
             </div>
         </div>
         <div id="containBottom">
-            <button class="btn2" p="bb1">首页</button><button class="" value="上一页" p="bb2">上一页</button>
-            <ul class="u3">
-                <li class="li3" value="1">1</li>
-                <li value="2">2</li>
-                <li value="3">3</li>
-                <li value="4">4</li>
-                <li value="5">5</li>
+            <button class="btn2" p="bc1">首页</button><button class="" value="上一页" p="bc2">上一页</button>
+            <ul class="u3" id="u10">
+                <li class="li3" value="1" p="ak1">1</li>
+                <li value="2" p="ak2">2</li>
+                <li value="3" p="ak3">3</li>
+                <li value="4" p="ak4">4</li>
+                <li value="5" p="ak5">5</li>
             </ul>
-            <button class=""  p="bb3">下一页</button><button class="btn2"  p="bb4">尾页</button>
+            <button class=""  p="bc3">下一页</button><button class="btn2"  p="bc4">尾页</button>
         </div>
         <div style="clear: both"></div>
     </div>
@@ -489,12 +489,39 @@
             window.location =str.replace(/aj\d+/,$(this).attr("p"));
         }
     });
+    $("#u10").on('click','li',function(){
+        var str=window.location.search;
+        if(str.search(/ak\d/)==-1){
+            window.location =str+"?ak="+$(this).attr("p");
+        }
+        else{
+            window.location =str.replace(/ak\d+/,$(this).attr("p"));
+        }
+    });
     $(".u3").on('click','li',function(){
         $(this).addClass("li3").siblings().removeClass("li3");
     });
 
     $("button").click(function () {
         $(this).addClass("btn2");
+    });
+    $(".btn1").click(function () {
+        var str=window.location.search;
+        if(str.search(/bb\d/)==-1){
+            window.location =str+"?bb="+$(this).attr("p");
+        }
+        else{
+            window.location =str.replace(/bb\d+/,$(this).attr("p"));
+        }
+    });
+    $(".btn2").click(function () {
+        var str=window.location.search;
+        if(str.search(/bc\d/)==-1){
+            window.location =str+"?bc="+$(this).attr("p");
+        }
+        else{
+            window.location =str.replace(/bc\d+/,$(this).attr("p"));
+        }
     });
 </script>
 </body>
