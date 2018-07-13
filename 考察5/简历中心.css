@@ -33,13 +33,19 @@ ul{
     padding-left: 45px;
 }
 #top1 .ul1 li:nth-child(8){
-    padding-left: 277px;
-    padding-right: 10px;
+    padding-right: 0px;
+    float: right;
+}
+#top1 .ul1 li:last-child{
+    padding-left: 0px;
+    padding-right: 15px;
+    float: right;
 }
 #top1 img{
     padding-left: 3px;
     margin-right: 8px;
-    vertical-align:middle;
+    position: relative;
+    top: 2px;
 }
 #top1 a{
     font-size: 18px;
@@ -86,14 +92,17 @@ ul{
 }
 #top2 .ul2 li{
     width: 80px;
+    height: 43px;
     text-align: center;
     float: left;
     margin-left: 20px;
     color:rgba(51,51,51,1);
     cursor: pointer;
 }
+#top2 .ul2 li:hover{
+    border-bottom: 6px solid #4A88F7;
+}
 #top2 .ul2 .lihover{
-    padding-bottom: 21px;
     border-bottom: 6px solid #4A88F7;
     color: #4A88F7;
     font-family:PingFangSC-Regular;
@@ -152,33 +161,28 @@ input::-webkit-input-placeholder { /* WebKit browsers */
 select{
     /*清除select的边框样式*/
     border: none;
+    width: 110px;
     /*清除select聚焦时候的边框颜色*/
     outline: none;
     /*将select的宽高等于div的宽高*/
-    width:100%;
     height: 40px;
     line-height: 40px;
-    /*隐藏select的下拉图标*/
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    /*通过padding-left的值让文字居中*/
     padding-left: 45px;
     font-size: 16px;
     color: #333333;
 }
-/*使用伪类给select添加自己想用的图标*/
-#d1:after{
-    content: "";
-    width: 15px;
-    height: 10px;
-    background: url(./img/xiala.png) no-repeat center;
-    /*通过定位将图标放在合适的位置*/
-    position: absolute;
-    right: 35px;
-    top: 40%;
-    /*给自定义的图标实现点击下来功能*/
-    pointer-events: none;
+select::-ms-expand { display: none; }
+.info-select{
+    text-align: center;
+    border: none;
+    outline: none;
+    /*将默认的select选择框样式清除*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    -ms-appearance:none;
+    /*在选择框的最右侧中间显示小箭头图片*/
+    background: url(./img/xiala.png) no-repeat right;
 }
 #contain1 ul{
     float: left;
@@ -207,7 +211,7 @@ select{
     width: 1150px;
     padding-left: 32px;
     margin-top: 10px;
-    background-color: #FFFFFFFF;
+    background-color: #FFFFFF;
     font-size:14px;
     color:rgba(51,51,51,1);
     padding-top: 20px;
@@ -223,7 +227,7 @@ select{
     margin-right: 20px;
     margin-top: 10px;
  }
-#contain2 .right{
+#contain2 .right3{
     font-family:PingFangSC-Light;
     /*听说苹果自带，暂时不用*/
     /*font-weight: lighter;*/
@@ -254,14 +258,14 @@ select{
     width: 1150px;
     padding-left: 20px;
     margin-top: 10px;
-    background-color: #FFFFFFFF;
+    background-color: #FFFFFF;
     position: relative;
     font-family:PingFangSC-Light;
 }
 #contain3 .top{
     width: 1110px;
     border-bottom: 1px solid #DDDDDD;
-    background-color: #FFFFFFFF;
+    background-color: #FFFFFF;
     padding: 20px 0px;
 }
 #contain3 .top .back{
@@ -323,38 +327,31 @@ select{
     width: 520px;
     height: 30px;
 }
-#containBottom button{
-    float: left;
-    width:60px;
-    height: 30px;
-    font-family:PingFangSC-Light;
-    font-size:14px;
-    background:#9FC0FB;
-    color:rgba(255,255,255,1);
-    margin: 0px 10px  0px 0px;
-    border: 0px;
- }
-#containBottom .btn2{
-    background:#4A88F7;
-}
 #containBottom ul li{
     float: left;
+    margin-right: 10px;
+}
+#containBottom ul button{
     width:30px;
     height: 30px;
     font-family:PingFangSC-Light;
     font-size:14px;
     background:#9FC0FB;
     color:rgba(255,255,255,1);
-    margin: 0px 10px  0px 0px;
     text-align: center;
-    padding-top: 9px;
+    cursor: pointer;
+    border: 0px;
 }
-#containBottom ul .li3{
+#containBottom ul li:nth-child(1) button,
+#containBottom ul li:nth-child(2) button,
+#containBottom ul li:nth-child(8) button,
+#containBottom ul li:nth-child(9) button {
+    width: 60px;
+    height: 30px;
+}
+#containBottom ul .btn2{
     background:#4A88F7;
 }
-
-
-
 
 
 #foot{
