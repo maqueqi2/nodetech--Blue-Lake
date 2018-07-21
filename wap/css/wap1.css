@@ -1,8 +1,6 @@
 body {
   width: 100%;
-  font-family: PingFangSC-Regular;
-  background-color: #FFFFFF;
-}
+  font-family: PingFangSC-Regular; }
 
 .banner {
   width: 100%;
@@ -32,7 +30,7 @@ body {
       color: #707076;
       width: 1.84rem;
       height: 0.8533333333rem;
-      background: #FFFFFF;
+      background: white;
       border: 0.0133333333rem solid #e5e5e5; }
     .banner .banner-btn a {
       color: inherit;
@@ -48,6 +46,8 @@ body {
 
 .contain {
   width: 100%;
+  height: 12.5rem;
+  background-color: white;
   border-radius: 0.1066666667rem 0.1066666667rem 0rem 0rem;
   position: relative;
   top: -0.1333333333rem;

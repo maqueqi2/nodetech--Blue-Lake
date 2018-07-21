@@ -168,7 +168,9 @@ a {
     line-height: 0.44rem;
     font-size: 0.32rem;
     font-family: PingFangSC-Regular;
-    color: #5668A6; }
+    color: #5668A6; 
+    margin-bottom: 1rem;
+}
   #contain .main .agree #img1 {
     width: 0.32rem;
     height: 0.32rem;
