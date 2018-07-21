@@ -150,9 +150,7 @@ a {
     color: #6c8bfe;
     background: white;
     border-radius: 0.0533333333rem;
-    border: 0.0266666667rem solid #6c8bfe;
-    top: 0rem;
-    left: 0rem; }
+    border: 0.0266666667rem solid #6c8bfe; }
   #contain .main #btn1 {
     width: 6.1333333333rem;
     height: 1.1733333333rem;
@@ -165,7 +163,7 @@ a {
     margin-top: 0.6666666667rem; }
   #contain .main .agree {
     display: inline-block;
-    width: 5.6rem;
+    width: 5.8666666667rem;
     height: 0.44rem;
     line-height: 0.44rem;
     font-size: 0.32rem;
