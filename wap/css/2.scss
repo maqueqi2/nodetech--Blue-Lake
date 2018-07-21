@@ -1,0 +1,20 @@
+@function px2rem($px) {
+  $rem: 75px;
+  @return ($px / $rem) + rem;
+}
+.d{
+  width: px2rem(300px);
+  height: px2rem(300px);
+  border:1px solid green;
+}
+.d .d1{
+  width: 1rem;
+  height: 1rem;
+  background-color: red;
+}
+.d .d2{
+  width: px2rem(80px);
+  height: px2rem(80px);
+  background-color: yellow;
+  border-radius: 8px 8px 0px 0px;
+}

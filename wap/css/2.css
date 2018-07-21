@@ -1,0 +1,17 @@
+.d {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid green; }
+
+.d .d1 {
+  width: 1rem;
+  height: 1rem;
+  background-color: red; }
+
+.d .d2 {
+  width: 1.0666666667rem;
+  height: 1.0666666667rem;
+  background-color: yellow;
+  border-radius: 8px 8px 0px 0px; }
+
+/*# sourceMappingURL=2.css.map */

@@ -1,0 +1,182 @@
+body {
+  width: 100%;
+  font-family: PingFangSC-Regular; }
+
+.header {
+  font-family: PingFangSC-Medium;
+  color: white;
+  line-height: 0.6933333333rem;
+  width: 100%;
+  height: 1.7066666667rem;
+  background: #333334;
+  padding-top: 0.7733333333rem;
+  text-align: center;
+  position: relative; }
+  .header .header-title {
+    font-size: 0.4933333333rem; }
+  .header .header-btn {
+    font-size: 0.3733333333rem;
+    position: absolute;
+    bottom: 0.24rem;
+    left: 0.2rem; }
+    .header .header-btn .icon {
+      display: inline-block;
+      width: 0.2933333333rem;
+      height: 0.2933333333rem;
+      border-left: 0.04rem solid #FFF;
+      border-bottom: 0.04rem solid #FFF;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+      position: relative;
+      top: 0.0133333333rem;
+      left: 0.16rem; }
+
+.banner {
+  width: 100%;
+  height: 3.8666666667rem;
+  line-height: 0;
+  background: linear-gradient(-90deg, #6c8bfe, #6a9eff);
+  overflow: hidden; }
+  .banner .img-close {
+    width: 0.5866666667rem;
+    height: 0.5866666667rem;
+    margin-top: 0.4266666667rem;
+    margin-left: 0.4266666667rem; }
+    .banner .img-close img {
+      width: 0.5866666667rem;
+      height: 0.5866666667rem; }
+  .banner .img-logo {
+    text-align: center; }
+    .banner .img-logo img {
+      width: 4.6133333333rem;
+      height: 0.8533333333rem; }
+  .banner .banner-btn {
+    text-align: center;
+    margin-top: 0.4266666667rem; }
+    .banner .banner-btn button {
+      font-size: 0.4rem;
+      font-family: PingFangSC-Regular;
+      color: #707076;
+      width: 1.84rem;
+      height: 0.8533333333rem;
+      background: white;
+      border: 0.0133333333rem solid #e5e5e5; }
+    .banner .banner-btn a {
+      color: inherit;
+      text-decoration: none; }
+    .banner .banner-btn button:first-child {
+      border-radius: 0.0533333333rem 0 0 0.0533333333rem;
+      position: relative; }
+    .banner .banner-btn button:last-child {
+      border-radius: 0 0.0533333333rem 0.0533333333rem 0;
+      position: relative; }
+    .banner .banner-btn .btn2 {
+      color: #6C8BFE; }
+
+.contain {
+  width: 100%;
+  background-color: white;
+  border-radius: 0.1066666667rem 0.1066666667rem 0rem 0rem;
+  position: relative;
+  top: -0.1333333333rem;
+  text-align: center; }
+
+.contain .ipt1 {
+  width: 8.7333333333rem;
+  height: 1.0666666667rem;
+  border-bottom: 0.0133333333rem solid #E5E5E5;
+  font-size: 0.4rem;
+  color: #2C3036;
+  line-height: 0.56rem;
+  padding-left: 0.8rem;
+  position: relative;
+  top: 0.8533333333rem;
+  background: url("../img/user.png") no-repeat left center;
+  background-size: 0.5866666667rem 0.5866666667rem; }
+
+.contain .dipt1 {
+  display: inline-block;
+  width: 8.7333333333rem;
+  height: 1.0666666667rem;
+  position: relative;
+  top: 1.3333333333rem; }
+
+.contain .dipt1 #img1 {
+  width: 0.5866666667rem;
+  position: absolute;
+  top: 0.5333333333rem;
+  right: 0rem; }
+
+.contain .dipt1 #ipt2 {
+  width: 8.7333333333rem;
+  height: 1.0666666667rem;
+  border-bottom: 0.0133333333rem solid #E5E5E5;
+  font-size: 0.4rem;
+  color: #2C3036;
+  line-height: 0.56rem;
+  padding-left: 0.8rem;
+  background: url("../img/psw.png") no-repeat left center;
+  background-size: 0.5866666667rem 0.5866666667rem; }
+
+input::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #c6c6c8; }
+
+input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #c6c6c8; }
+
+input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #c6c6c8; }
+
+input:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #c6c6c8; }
+
+.contain .d1 {
+  width: 2.6666666667rem;
+  text-align: left;
+  height: 0.56rem;
+  line-height: 0.56rem;
+  font-size: 0.4rem;
+  position: relative;
+  left: 0.64rem;
+  top: 1.7333333333rem; }
+
+.contain .d1 a {
+  color: #5668a6;
+  text-decoration: none; }
+
+.contain button {
+  width: 6.1333333333rem;
+  height: 1.1733333333rem;
+  line-height: 1.1733333333rem;
+  font-size: 0.48rem;
+  background: #6c8bfe;
+  box-shadow: 0px 4px 12px 0px rgba(108, 139, 254, 0.2);
+  border-radius: 0.1066666667rem;
+  color: white;
+  position: relative;
+  top: 2.5333333333rem; }
+
+.contain .d2 {
+  width: 100%;
+  height: 0.44rem;
+  line-height: 0.44rem;
+  font-size: 0.32rem;
+  font-family: PingFangSC-Regular;
+  color: #979799;
+  text-align: center;
+  position: relative;
+  top: 5.6rem; }
+
+.contain img {
+  position: relative;
+  top: 5.9333333333rem;
+  width: 1.1733333333rem; }
+
+/*# sourceMappingURL=wap1.css.map */
