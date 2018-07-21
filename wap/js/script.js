@@ -16,7 +16,7 @@ window.onload=function () {
     htmlDom.style.fontSize = htmlWidth / 10 + "px";
 };
 
-document.getElementById("span").onclick=function(){
+document.getElementById("close").onclick=function(){
     window.history.back();
     // window.history.go(-1);
 };

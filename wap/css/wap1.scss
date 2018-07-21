@@ -7,41 +7,6 @@ body{
   width: 100%;
   font-family:PingFangSC-Regular;
 }
-.header {
-  font-family:PingFangSC-Medium;
-  color:rgba(255,255,255,1);
-  line-height:px2rem(52px);
-  width: 100%;
-  height: px2rem(128px);
-  background: #333334;
-  padding-top: px2rem(58px);
-  text-align: center;
-  position: relative;
-  .header-title {
-    font-size:px2rem(37px);
-  }
-  .header-btn {
-    font-size:px2rem(28px);
-    position: absolute;
-    bottom: px2rem(18px);
-    left: px2rem(15px);
-    .icon {
-      display: inline-block;
-      width: px2rem(22px);
-      height: px2rem(22px);
-      border-left: px2rem(3px) solid #FFF;
-      border-bottom: px2rem(3px) solid #FFF;
-      -webkit-transform: rotate(45deg);
-      -moz-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      -o-transform: rotate(45deg);
-      transform: rotate(45deg);
-      position: relative;
-      top: px2rem(1px);
-      left: px2rem(12px);
-    }
-  }
-}
 
 .banner {
   width: 100%;
@@ -188,6 +153,22 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
   text-align: center;
   position: relative;
   top: px2rem(420px);
+}
+.contain .d2 .hr{
+  width: px2rem(200px);
+  height: px2rem(1px);
+  border-bottom: 1px solid #E5E5E5;
+  position: absolute;
+  top: px2rem(16px);
+  left: px2rem(70px);
+}
+.contain .d2 .hr2{
+  width: px2rem(200px);
+  height: px2rem(1px);
+  border-bottom: 1px solid #E5E5E5;
+  position: absolute;
+  top: px2rem(16px);
+  right: px2rem(70px);
 }
 .contain img{
   position: relative;

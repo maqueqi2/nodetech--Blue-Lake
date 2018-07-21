@@ -6,38 +6,6 @@ a {
   color: inherit;
   text-decoration: none; }
 
-#header {
-  width: 100%;
-  height: 1.7066666667rem;
-  line-height: 1.7066666667rem;
-  font-size: 0.4933333333rem;
-  font-family: PingFangSC-Medium;
-  color: white;
-  background-color: #333334;
-  text-align: center;
-  position: relative; }
-
-#header .header-btn {
-  float: left;
-  font-size: 0.3733333333rem;
-  position: absolute;
-  left: 0.16rem; }
-
-#header .icon {
-  display: inline-block;
-  width: 0.2933333333rem;
-  height: 0.2933333333rem;
-  border-left: 0.04rem solid #FFF;
-  border-bottom: 0.04rem solid #FFF;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-  position: relative;
-  top: 0.0133333333rem;
-  left: 0.16rem; }
-
 #banner {
   width: 100%;
   height: 3.8666666667rem;

@@ -19,3 +19,27 @@ document.getElementById("label1").onclick=function()
 document.getElementById("btn1").onclick=function () {
     window.location.href="wap登录前.html?backurl="+window.location.href;
 };
+// .onblur当id为ipt1的元素失去焦点时触发
+document.getElementById("ipt1").onblur=function () {
+    var ipt1=document.getElementById("ipt1");
+    var i=ipt1.value.search(/1[34578]\d{9}/);
+    if(i==-1){
+        alert("手机号码格式出错");
+    }
+};
+// 检查两次输入密码是否一致
+document.getElementById("psd2").onblur=function () {
+    var psd1=document.getElementById("psd1").value;
+    var psd2=document.getElementById("psd2").value;
+    if(psd1!=psd2){
+        alert("两次输入密码不一致");
+    }
+};
+// .onblur当id为ipt1的元素失去焦点时触发
+document.getElementById("email").onblur=function () {
+    var email=document.getElementById("email").value;
+    var  i=email.search(/^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*\.[a-zA-Z0-9]{2,6}$/);
+    if(i==-1){
+        alert("邮箱格式不正确");
+    }
+};

@@ -73,3 +73,12 @@ var icon1 = document.getElementsByClassName('icon1')[0];
 icon1.onclick=function () {
     window.history.back();
 };
+
+// .onblur当id为ipt1的元素失去焦点时触发
+document.getElementById("ipt1").onblur=function () {
+    var ipt1=document.getElementById("ipt1");
+    var i=ipt1.value.search(/1[34578]\d{9}/);
+    if(i==-1){
+        alert("手机号码格式出错");
+    }
+};

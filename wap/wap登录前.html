@@ -4,41 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>登录输入前</title>
+    <title>E滁州人才网</title>
     <link rel="stylesheet" href="css/wap1.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/wap1.scss">
 
 </head>
 <body>
-<div class="header">
-    <div class="header-btn">
-        <div class="icon"></div>
-        <span id="span">返回</span>
-    </div>
-    <div class="header-title">E滁州人才网</div>
-</div>
 <div class="banner">
-    <div class="img-close"><img src="img/close.png" alt="close"></div>
+    <div class="img-close"><img id="close" src="img/close.png" alt="close"></div>
     <div class="img-logo"><img src="img/logo.png" alt="logo"></div>
     <div class="banner-btn">
         <button class="btn2"><a href="wap登录前.html">登录</a></button><button><a href="个人注册输入前.html">注册</a></button>
     </div>
 </div>
 <div class="contain">
-    <input type="text" class="ipt1" placeholder="输入用户名/手机号码">
+    <input type="text" class="ipt1" id="ipt1" placeholder="输入用户名/手机号码" maxlength="11">
     <div class="dipt1">
         <input type="password" id="ipt2" placeholder="输入登录密码">
         <img id="img1" src="img/eyesclose.png">
     </div>
     <div class="d1"><a href="找回密码输入前.html">忘记密码</a></div>
     <button>登录</button>
-    <div class="d2">使用第三方登录</div>
+    <div class="d2">
+        <div class="hr"></div>
+        使用第三方登录
+        <div class="hr2"></div>
+    </div>
     <img src="img/wechat.png">
 </div>
 
-<script src="js/jquery-1.11.3.js"></script>
-<script src="js/script.js"></script>
 <script src="js/wap登录前.js"></script>
 </body>
 </html>
